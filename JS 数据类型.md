@@ -153,6 +153,7 @@ s.length // 5
 ```
 ### 字符集
 对于码点在U+10000到U+10FFFF之间的字符，JavaScript 总是认为它们是两个字符（length属性为2）。JavaScript 返回的字符串长度可能是不正确的。
+
 `'��'.length // 2`
 
 ### Base64 转码
