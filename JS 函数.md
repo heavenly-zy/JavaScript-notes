@@ -15,6 +15,7 @@ function print(s) {
   console.log(s);
 }
 ```
+
 2. 函数表达式
 ```js
 var print = function(s) {
@@ -22,6 +23,7 @@ var print = function(s) {
 };
 ```
 注意语句的结尾要加分号
+
 3. Function 构造函数
 ```js
 var add = new Function(
